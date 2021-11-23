@@ -5,8 +5,8 @@ void print(int *vetor, int tam) {
     int i = 0;
     printf("Vetor ordenado: ");
 
-    while (i++ < tam) {
-        printf("%d ", vetor[i]);
+    while (i < tam) {
+        printf("%d ", vetor[i++]);
     }
 
     printf("\n");

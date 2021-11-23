@@ -41,6 +41,7 @@ for1:                               ; equivale a for (int i = 0 ; i < n - 1 ; i+
     jne for1
 
 end:
+    inc ecx         ; restaurar o tamanho do vetor
     pop ebx         ; recupera ebx
 
     push ecx        ; passando parametros para a funcao em C que vai printar
